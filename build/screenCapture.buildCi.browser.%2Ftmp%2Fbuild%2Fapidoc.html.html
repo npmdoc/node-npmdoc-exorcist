@@ -54,12 +54,52 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.exorcist">module exorcist</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.exorcist.exorcist">
+            function <span class="apidocSignatureSpan"></span>exorcist
+            <span class="apidocSignatureSpan">(file, url, root, base)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.exorcist" id="apidoc.module.exorcist">module exorcist</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.exorcist.exorcist" id="apidoc.element.exorcist.exorcist">
+        function <span class="apidocSignatureSpan"></span>exorcist
+        <span class="apidocSignatureSpan">(file, url, root, base)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function exorcist(file, url, root, base) {
+  var stream = mold.transform(function(src, write) {
+    if (!src.sourcemap) {
+      stream.emit(
+        'missing-map'
+        ,   'The code that you piped into exorcist contains no source map!\n'
+          + 'Therefore it was piped through as is and no external map file generated.'
+      );
+      return write(src.source);
+    }
+
+    var separated = separate(src, file, root, base, url);
+    fs.writeFile(file, separated.json, 'utf8', function() {
+      write(separated.comment);
+    });
+  });
+
+  return stream;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
