@@ -1,9 +1,14 @@
-# api documentation for  [exorcist (v0.4.0)](https://github.com/thlorenz/exorcist)  [![npm package](https://img.shields.io/npm/v/npmdoc-exorcist.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-exorcist) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-exorcist.svg)](https://travis-ci.org/npmdoc/node-npmdoc-exorcist)
+# npmdoc-exorcist
+
+#### api documentation for  [exorcist (v0.4.0)](https://github.com/thlorenz/exorcist)  [![npm package](https://img.shields.io/npm/v/npmdoc-exorcist.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-exorcist) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-exorcist.svg)](https://travis-ci.org/npmdoc/node-npmdoc-exorcist)
+
 #### Externalizes the source map found inside a stream to an external `.js.map` file
 
-[![NPM](https://nodei.co/npm/exorcist.png?downloads=true)](https://www.npmjs.com/package/exorcist)
+[![NPM](https://nodei.co/npm/exorcist.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/exorcist)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-exorcist/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-exorcist_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-exorcist/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-exorcist/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-exorcist/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-exorcist/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-exorcist/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-exorcist/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Thorsten Lorenz",
-        "email": "thlorenz@gmx.de",
         "url": "http://thlorenz.com"
     },
     "bin": {
@@ -64,13 +68,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "thlorenz",
-            "email": "thlorenz@gmx.de"
+            "name": "thlorenz"
         }
     ],
     "name": "exorcist",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/thlorenz/exorcist.git"
@@ -86,16 +88,6 @@
     "version": "0.4.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module exorcist](#apidoc.module.exorcist)
-
-
-
-# <a name="apidoc.module.exorcist"></a>[module exorcist](#apidoc.module.exorcist)
 
 
 
